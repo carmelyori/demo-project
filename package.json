@@ -1,0 +1,19 @@
+{
+  "name": "demo-project",
+  "version": "1.0.0",
+  "description": "A demo project to showcase the capabilities of Masonai.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha test/test.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1"
+  },
+  "dev-dependencies": {
+    "mocha": "^8.3.2"
+  },
+  "author": "carmelyori",
+  "license": "ISC"
+}
